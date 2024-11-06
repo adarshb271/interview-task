@@ -1,0 +1,38 @@
+.navbarmain {
+    margin: 0px;
+    position: relative;
+    background-color: #333; 
+  gap: 20px;
+    height: 110px; 
+}
+
+
+.navhead {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff; 
+}
+
+.nav-link.active {
+    color: #f0a500;
+}
+
+
+.nav-link:hover {
+    color: #ccc; 
+}
+.image{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.telephone{
+    color: white; 
+    
+    gap: 200px;
+    margin-left: 600px;
+}

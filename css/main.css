@@ -1,0 +1,320 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+
+    
+}
+/* .telephone{
+    background-color: aqua;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.mainimage{
+    height: 550px;
+    width: 100%;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+/* .card{
+    height: 200px;
+    background-color: aqua;
+    margin-top: 20px;
+display: flex;
+flex-direction: rows;
+
+justify-content: center;
+
+
+} */
+ .card-group{
+    padding: 20px 20px;
+    gap: 20px;
+    border-left: 10px;
+    border-radius: 20px 20px 20px 20px;
+
+ }
+
+.card{
+    gap: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+}
+.card:hover{
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+
+}
+
+/* .bigimg{
+    height: 200px;
+} */
+.center{
+    background-color: rgb(212, 247, 247);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 600px;
+    margin-top: 20px;
+    gap: 150px;
+}
+.centertext{
+ margin-left: 90px;
+    width: 500px;
+}
+.facilities{
+   
+    margin-top: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.facilitiescard{
+  
+   
+  display: flex;
+  flex-direction: column;
+ 
+  height: 350px;
+   
+}
+.facilities h1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+  
+  .facilitiesimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 30px;
+  }
+  
+
+  .rounded {
+height: 200px;
+width:200px;
+    background-color: white;
+    padding: 15px 15px;
+  }
+  
+  .rounded:hover {
+    padding: 20px 20px;
+    border: 1px solid #c8944a;
+  }
+  .text-center  {
+    height: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    /* border-radius: 5px; */
+    margin-top: 10px;
+    padding: 10px 10px;
+  }
+  
+  .text-center p:hover {
+    background-color: rgba(0, 0, 0, 0.663);
+    cursor: pointer;
+  }
+  .review{
+    margin-top: 20px;
+    align-items: center;
+   
+    display: flex;
+    flex-direction: column;
+font-family: serif; 
+ 
+    height: 500px;
+  }
+  .reviewimage{
+    width: 400px;
+    height: 50px;
+  }
+  .footer{
+   
+    color: white;
+    background-color: rgb(95, 100, 100);
+    height: 250px;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    font-style: italic;
+    
+  }
+
+  .contact{
+    margin-left:30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+  align-items: center;
+  }
+  .contact:hover{
+    cursor: pointer;
+    color: bisque;
+    margin-left:30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+  align-items: center;
+  }
+  .about{
+    color: white;
+    width: 300px;
+  }
+  .connect{
+display: flex;
+flex-direction: column; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  }
+  .socialmedia{
+    
+height: 30px;
+color: white;
+background-color: rgb(95, 100, 100);
+  }
+
+  .about:hover{
+    cursor: pointer;
+    color: bisque;
+    width: 300px;
+  }
+  .connect:hover{
+    cursor: pointer;
+    color: bisque;
+
+  }
+  .socialmedia:hover{
+    
+color:bisque;
+  }
+
+
+
+
+  .copyright{
+    color: white;
+    background-color: rgb(95, 100, 100);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutus{
+    /* display: flex; */
+ 
+    height: 500px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .aboutall{
+    display: flex;
+    flex-direction: row;
+  }
+  .lefttextaboutus{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    font-style: italic;
+
+  }
+  /* .righttextaboutus{
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  margin-top: 50px;
+    margin-left: 50px;
+  } */
+  .rightimg{
+    margin-left: 60px;
+    height: 300px;
+    width: 500px;
+  }
+  .aboutimage{
+    background-color: rgb(218, 250, 250);
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    margin-left: 30px;
+    height: 500px;
+  }
+  .figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 470px;
+  }
+  .ourchef{
+    margin-top: 30px;
+  }
+  .chefheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .rooms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+font-style: italic; 
+
+ }
+ .KingRoom{
+    background-color: rgb(153, 225, 225)
+ }
+ .deluxeroom{
+    background-color: rgb(153, 225, 225)
+  
+ }
+ .roomwithview{
+    background-color: rgb(153, 225, 225)
+  
+ }
+
+ .bookinghead{
+    margin-left: 50px;
+    font-style:italic ;
+ }
+ .bookingleft{
+    min-height: 500px;
+    /* background-color: aqua; */
+    height: 200px;
+ }
+ .bookingmain{
+    display: flex;
+    flex-direction: rows;
+    height: 650px;
+ }
+ .bookingright{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+    gap: 20px;
+ }
